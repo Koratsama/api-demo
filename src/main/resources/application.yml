@@ -1,0 +1,24 @@
+
+management:
+    endpoints:
+      web:
+        exposure:
+          include: "*"
+
+server:
+  port: 8080
+  error:
+    whitelabel:
+      enabled: false
+
+info:
+  build:
+    description: '@project.description@'
+    timestamp: '@timestamp@'
+    pom_version: '@POM_GROUPID@'
+  
+  swagger:
+    contact:
+      name: Koratsama
+      email: sliston21@gmail.com
+    title: Demo API
